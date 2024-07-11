@@ -73,6 +73,7 @@ ul {
 }
 
 .exp-list li > p {
+  /* list */
   width: 200px;
   flex-shrink: 0;
   font-weight: 600;
