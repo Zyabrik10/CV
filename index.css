@@ -153,11 +153,11 @@ ul {
 
 .vis-lang li {
   height: 10px;
-  background: #a5a5a5;
+  background: #d4d6d6;
 }
 
 .vis-lang li.current {
-  background: #000;
+  background: #33393e;
 }
 
 .language-level-name {
