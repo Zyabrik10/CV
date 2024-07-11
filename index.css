@@ -1,0 +1,146 @@
+@import url("./reset-normolize.css");
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-size: 18px;
+  font-family: Arial, Helvetica, sans-serif;
+
+  color: #333333;
+}
+
+.wrapper {
+  width: 900px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.container {
+  margin-left: 200px;
+}
+
+.name {
+  font-size: 60px;
+  text-transform: uppercase;
+
+  margin-bottom: 5px;
+
+  color: #33393e;
+}
+
+.contacts {
+  margin-bottom: 30px;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  color: rgb(92, 92, 92);
+}
+
+.contacts span {
+  color: black;
+}
+
+section {
+  margin-bottom: 50px;
+}
+
+section > p {
+  margin-bottom: 10px;
+}
+
+h2 {
+  font-size: 30px;
+  text-transform: uppercase;
+  margin-bottom: 20px;
+  color: #33393e;
+}
+
+ul {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.exp-list li {
+  display: flex;
+  gap: 10px;
+}
+
+.exp-list li address {
+  width: 200px;
+  flex-shrink: 0;
+}
+
+.flex-container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  width: 100%;
+  --flex-items: 2;
+  --flex-items-gap: 15px;
+  gap: var(--flex-items-gap);
+}
+
+.flex-container > * {
+  flex-basis: calc(
+    (100% - (var(--flex-items) - 1) * var(--flex-items-gap)) / var(--flex-items)
+  );
+}
+
+.skills-list {
+  width: 500px;
+  margin-left: 225px;
+  list-style-type: disc;
+}
+
+.hobby-list {
+  list-style-type: disc;
+  margin-left: 20px;
+}
+
+.native-lang {
+  margin-bottom: 15px;
+  font-weight: 600;
+}
+
+.native-lang > span {
+  font-weight: 400;
+}
+
+.lang-list {
+  --flex-items: 3;
+}
+
+.info-lang-block {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 5px;
+}
+
+.info-lang-block-lang {
+  font-weight: 600;
+}
+
+.vis-lang {
+  --flex-items: 6;
+  --flex-items-gap: 5px;
+  display: flex;
+  flex-direction: row;
+
+  margin-bottom: 5px;
+}
+
+.vis-lang li {
+  height: 10px;
+  background: #a5a5a5;
+}
+
+.vis-lang li.current {
+  background: #000;
+}
+
+.language-level-name {
+  font-size: 16px;
+}
