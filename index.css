@@ -25,7 +25,7 @@ body {
   font-size: 60px;
   text-transform: uppercase;
 
-  margin-bottom: 5px;
+  margin-bottom: 10px;
 
   color: #33393e;
 }
@@ -57,6 +57,10 @@ h2 {
   color: #33393e;
 }
 
+h3 {
+  margin-bottom: 5px;
+}
+
 ul {
   display: flex;
   flex-direction: column;
@@ -68,9 +72,10 @@ ul {
   gap: 10px;
 }
 
-.exp-list li address {
+.exp-list li > p {
   width: 200px;
   flex-shrink: 0;
+  font-weight: 600;
 }
 
 .flex-container {
@@ -93,6 +98,19 @@ ul {
   width: 500px;
   margin-left: 225px;
   list-style-type: disc;
+}
+
+.skill-info {
+  margin-bottom: 5px;
+  font-weight: 600;
+}
+
+.skill-info > span {
+  font-weight: 400;
+}
+
+.skill-desc {
+  margin-bottom: 10px;
 }
 
 .hobby-list {
