@@ -53,7 +53,6 @@ body {
 }
 
 .contacts {
-  margin-bottom: 30px;
   display: flex;
   align-items: center;
   gap: 10px;
@@ -66,6 +65,10 @@ body {
 
 section {
   margin-bottom: 50px;
+}
+
+section:first-child {
+  margin-bottom: 20px;
 }
 
 section > p {
