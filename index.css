@@ -23,6 +23,10 @@ body {
   margin-left: 200px;
 }
 
+.profile-img {
+  border-radius: 100%;
+}
+
 .name {
   font-size: 60px;
   text-transform: uppercase;
@@ -69,17 +73,21 @@ ul {
   gap: 15px;
 }
 
-.exp-list li {
+.exp-list {
+  margin-left: 220px;
+  list-style-type: disc;
+}
+
+/* .exp-list li {
   display: flex;
   gap: 10px;
 }
 
 .exp-list li > p {
-  /* list */
   width: 200px;
   flex-shrink: 0;
   font-weight: 500;
-}
+} */
 
 .flex-container {
   display: flex;
