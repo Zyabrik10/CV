@@ -23,12 +23,28 @@ body {
   margin-left: 200px;
 }
 
-.profile-img {
+.profile-section {
+  display: flex;
+  gap: 20px;
+  align-items: center;
+}
+
+.profile-img-block {
+  overflow: hidden;
   border-radius: 100%;
+  width: 200px;
+  height: 200px;
+}
+
+.profile-img {
+  display: block;
+  width: 100%;
+  height: 250px;
+  margin-top: -10px;
 }
 
 .name {
-  font-size: 60px;
+  font-size: 50px;
   text-transform: uppercase;
 
   margin-bottom: 10px;
@@ -73,21 +89,17 @@ ul {
   gap: 15px;
 }
 
-.exp-list {
-  margin-left: 220px;
-  list-style-type: disc;
-}
-
-/* .exp-list li {
+.exp-list li {
   display: flex;
   gap: 10px;
 }
 
 .exp-list li > p {
+  /* list */
   width: 200px;
   flex-shrink: 0;
   font-weight: 500;
-} */
+}
 
 .flex-container {
   display: flex;
